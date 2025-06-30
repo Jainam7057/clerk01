@@ -23,7 +23,9 @@ function Navbar() {
         </ul>
         <header>
           <SignedOut>
-            <SignInButton />
+            <SignInButton>  
+              <button style={{backgroundColor : "green", color : "white"}}>Login</button>
+            </SignInButton>
           </SignedOut>
           <SignedIn>
             <UserButton />
